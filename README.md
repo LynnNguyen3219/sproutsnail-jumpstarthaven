@@ -1,4 +1,6 @@
 # sprout snail: for jumpstart haven!!!
+> URL: https://lynnnguyen3219.itch.io/sprout-snail
+
 sprout snail is a platformer game where you play as a snail and your goal is to try to collect every single sprout to win (hence the name sprout snail)!! try to avoid falling down from the platforms (or the unfortunate pit in the ground that will restart your progress if you fall down it...). 
 
 ## features include...
