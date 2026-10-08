@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dijnria14uhe2"]
+
+[ext_resource type="Script" uid="uid://bhe5d40xu1t10" path="res://scripts/music.gd" id="1_lr66j"]
+[ext_resource type="AudioStream" uid="uid://d3f2a1y7e465u" path="res://audio/Wax BSS.mp3" id="2_khlsn"]
+[ext_resource type="AudioStream" uid="uid://b7biog51gn21v" path="res://audio/Jump.wav" id="3_boywh"]
+[ext_resource type="AudioStream" uid="uid://eke8gnp73i1t" path="res://audio/PickUp.wav" id="4_gqg2j"]
+
+[node name="Music" type="Node2D" unique_id=307712196]
+script = ExtResource("1_lr66j")
+
+[node name="Music" type="AudioStreamPlayer2D" parent="." unique_id=103440527]
+stream = ExtResource("2_khlsn")
+
+[node name="Jump" type="AudioStreamPlayer2D" parent="." unique_id=2140536665]
+stream = ExtResource("3_boywh")
+
+[node name="Collect" type="AudioStreamPlayer2D" parent="." unique_id=829989725]
+stream = ExtResource("4_gqg2j")
